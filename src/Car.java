@@ -8,4 +8,10 @@ class Car {
         this.mark = mark;
         this.year = year;
     }
+
+    Car(Car car) {
+        this.make = car.make;
+        this.mark = car.mark;
+        this.year = car.year;
+    }
 }
